@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_return_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_start_btn"
+        android:text="跳过"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circle_indicator_start"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
